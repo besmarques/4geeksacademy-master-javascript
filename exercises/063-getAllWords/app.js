@@ -1,3 +1,4 @@
 function getAllWords(str) {
-    // your code here
+    var array = [];
+    return array = str.split(" ");
 }

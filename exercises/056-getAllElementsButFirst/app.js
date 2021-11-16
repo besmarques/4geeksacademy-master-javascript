@@ -1,3 +1,4 @@
 function getAllElementsButFirst(array) {
-  // your code here
+  var arr = array.slice(1);
+  return arr;
 }

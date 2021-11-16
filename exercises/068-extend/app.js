@@ -8,5 +8,8 @@ var obj2 = {
 };
 
 function extend(obj1, obj2) {
-    // your code here
+   
+    delete obj2["b"];
+    Object.assign (obj1, obj2);
+    return obj1;
 }

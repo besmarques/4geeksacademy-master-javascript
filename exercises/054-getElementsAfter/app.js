@@ -1,6 +1,7 @@
 function getElementsAfter(array, n) {
   // your code here
-  var arr=[];
-  arr = array.slice(n, array.length);
-  return arr;
+  
+  var newArray = array.splice(n + 1);
+    return newArray;
+  
 }
