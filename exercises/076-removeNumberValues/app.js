@@ -4,7 +4,16 @@ var obj = {
     c: 4
 };
 function removeNumberValues(obj) {
-    // your code here
+    Object.keys(obj).forEach(function(key){
+
+        if(Number.isInteger(obj[key])){
+            delete obj[key];
+        }
+        
+          
+          
+          console.log(obj);
+        });
 }
 
 removeNumberValues(obj);

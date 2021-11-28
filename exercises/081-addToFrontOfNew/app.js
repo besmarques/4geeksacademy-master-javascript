@@ -1,7 +1,7 @@
-
 function addToFrontOfNew(arr, element) {
+    //var array = arr;
+    //array.unshift(element);
     
-    var array = arr.unshift(element);
     return array;
 }
 
